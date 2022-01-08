@@ -20,8 +20,8 @@ namespace FLEVRserialize
             switch (Path.GetExtension(filePath).ToLower())
             {
                 case ".json":
-                    break;
                     DeserializeFLVER(filePath);
+                    break;
                 case ".flver":
                     SerializeFLVER(filePath);
                     break;
@@ -29,6 +29,7 @@ namespace FLEVRserialize
                     Console.WriteLine("The given file is not a FLVER file");
                     break;
             }
+            Console.ReadLine();
         }
 
         private static void DeserializeFLVER(string jsonFilePath)
@@ -40,7 +41,9 @@ namespace FLEVRserialize
             if (File.Exists(newFlevrFilePath))
                 File.Delete(newFlevrFilePath);
 
-            flevr.Write(newFlevrFilePath);
+            flevr.Write(Path.GetFullPath(newFlevrFilePath));
+
+            Console.WriteLine("Finished deserializing FLVER file!");
         }
 
         private static void SerializeFLVER(string flverFilePath)
@@ -57,6 +60,8 @@ namespace FLEVRserialize
                 File.Delete(newJsonFilePath);
 
             File.WriteAllText(newJsonFilePath, jsonFileFlevr);
+
+            Console.WriteLine("Finished serializing FLVER file!");
         }
     }
 }

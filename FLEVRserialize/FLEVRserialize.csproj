@@ -13,4 +13,13 @@
     <ProjectReference Include="..\SoulsFormats\SoulsFormats.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="BD_M_5300.flver">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="BD_M_5300.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

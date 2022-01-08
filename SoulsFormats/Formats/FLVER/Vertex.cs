@@ -64,10 +64,18 @@ namespace SoulsFormats
             private Queue<Vector4> tangentQueue;
             private Queue<VertexColor> colorQueue;
 
+
+            public Vertex()
+            {
+                UVs = new List<Vector3>(0);
+                Tangents = new List<Vector4>(0);
+                Colors = new List<VertexColor>(0);
+            }
+
             /// <summary>
             /// Create a Vertex with null or empty values.
             /// </summary>
-            public Vertex(int uvCapacity = 0, int tangentCapacity = 0, int colorCapacity = 0)
+            public Vertex(int uvCapacity, int tangentCapacity, int colorCapacity)
             {
                 UVs = new List<Vector3>(uvCapacity);
                 Tangents = new List<Vector4>(tangentCapacity);

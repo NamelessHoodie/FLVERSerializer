@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FLEVRserialize": {
+      "commandName": "Project",
+      "commandLineArgs": "BD_M_5300.json"
+    }
+  }
+}
