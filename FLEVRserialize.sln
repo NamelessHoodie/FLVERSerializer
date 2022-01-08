@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31808.319
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FLEVRserialize", "FLEVRserialize\FLEVRserialize.csproj", "{75FF8E94-83AF-4E41-9439-DA0C4E935B5C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoulsFormats", "SoulsFormats\SoulsFormats.csproj", "{F54DEBA6-3224-4C93-98D0-A996E5FFC104}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75FF8E94-83AF-4E41-9439-DA0C4E935B5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75FF8E94-83AF-4E41-9439-DA0C4E935B5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75FF8E94-83AF-4E41-9439-DA0C4E935B5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75FF8E94-83AF-4E41-9439-DA0C4E935B5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F54DEBA6-3224-4C93-98D0-A996E5FFC104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F54DEBA6-3224-4C93-98D0-A996E5FFC104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F54DEBA6-3224-4C93-98D0-A996E5FFC104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F54DEBA6-3224-4C93-98D0-A996E5FFC104}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAB6EA4B-A29C-4AD6-A703-6B513F29AB61}
+	EndGlobalSection
+EndGlobal
